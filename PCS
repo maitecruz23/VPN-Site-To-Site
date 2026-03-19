@@ -1,0 +1,8 @@
+En la VPC Conectada a Fortinet SitioA
+ip 10.20.11.10 255.255.255.0 10.20.11.254
+save
+
+En la VPC Conectada a SitioB
+ip 10.24.65.10 255.255.255.0 10.24.65.254
+save
+
