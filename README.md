@@ -4,6 +4,10 @@
 > **Plataforma:** PNetLab  
 > **Dispositivos:** 2x FortiGate vVM · 1x Cisco vIOS · 2x VPCS
 
+
+VIDEO EN YOUTUBE
+https://youtu.be/bHysK-hBjN0
+
 ---
 
 ## 📋 Objetivo de la Red
