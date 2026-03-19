@@ -58,7 +58,7 @@ Para lograrlo se utilizaron dos firewalls **FortiGate** como gateways VPN de cad
 
 ---
 
-### 📸 Captura 1 — Configuración Router ISP (vIOS)
+###  Configuración Router ISP (vIOS)
 
 > Se configuraron las dos interfaces del router ISP para conectar ambos FortiGates a través de la red WAN simulada.
 
@@ -90,7 +90,7 @@ Building configuration...
 
 ---
 
-### 📸 Captura 2 — Configuración FGT-SitioA (Interfaces + Ruta Estática)
+### Configuración FGT-SitioA (Interfaces + Ruta Estática)
 
 > Configuración de hostname, interfaces WAN/LAN y ruta por defecto hacia el ISP en el FortiGate del Sitio A.
 
@@ -125,7 +125,7 @@ end
 
 ---
 
-### 📸 Captura 3 — Configuración FGT-SitioB (Interfaces + Ruta Estática)
+### Configuración FGT-SitioB (Interfaces + Ruta Estática)
 
 > Misma estructura que el Sitio A pero con el esquema de direccionamiento del Sitio B.
 
@@ -160,7 +160,7 @@ end
 
 ---
 
-### 📸 Captura 4 — Configuración VPN IPsec Fase 1 y Fase 2
+### Configuración VPN IPsec Fase 1 y Fase 2
 
 > Túnel IPsec configurado en ambos FortiGates para establecer el canal cifrado Site-To-Site.
 
@@ -220,7 +220,7 @@ FGT-SitioB - Configuración VPN IPsec
 
 ---
 
-### 📸 Captura 5 — Políticas de Firewall en FortiGate
+### Políticas de Firewall en FortiGate
 
 > Se crearon políticas bidireccionales para permitir el tráfico entre las LANs a través del túnel VPN.
 
@@ -249,7 +249,7 @@ Política 2: Túnel VPN --> LAN (Entrada desde Sitio B)
 
 ---
 
-### 📸 Captura 6 — Configuración de VPCs
+### Configuración de VPCs
 
 > Asignación de IP estática en cada VPC para que puedan enrutar tráfico a través de su FortiGate local.
 
@@ -280,7 +280,7 @@ Saving startup configuration to startup.vpc
 
 ---
 
-### 📸 Captura 7 — Verificación de Conectividad (Trace-route)
+### Verificación de Conectividad (Trace-route)
 
 > Prueba de conectividad extremo a extremo desde VPC Sitio A hacia VPC Sitio B, confirmando que el tráfico atraviesa el túnel VPN.
 
