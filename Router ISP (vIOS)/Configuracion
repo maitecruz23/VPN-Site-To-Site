@@ -1,0 +1,15 @@
+enable
+configure terminal
+
+interface GigabitEthernet0/0
+ ip address 172.20.11.1 255.255.255.252
+ no shutdown
+ exit
+
+interface GigabitEthernet0/1
+ ip address 172.24.65.1 255.255.255.252
+ no shutdown
+ exit
+
+end
+write memory
