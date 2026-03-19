@@ -21,17 +21,13 @@ Los objetivos específicos son:
 
 ## 🗺️ Topología
 
-```
-                        [ vIOS - Router ISP ]
-                        Gi0/0       Gi0/1
-                          |           |
-                       port1       port1
-                 [ FGT-SitioA ]   [ FGT-SitioB ]
-                 port2   port3     port3   port2
-                   |                         |
-                 [VPC]                      [VPC]
-                (LAN A)                   (LAN B)
-```
+<img width="1469" height="1181" alt="Captura de pantalla 2026-03-18 204033" src="https://github.com/user-attachments/assets/e1fa3045-0692-45e7-8116-2fb17098ae95" />
+
+
+
+
+
+
 
 > La topología fue implementada en GNS3. Cada FortiGate tiene:
 > - **port1** → Enlace WAN hacia el ISP
