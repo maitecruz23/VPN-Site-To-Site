@@ -29,7 +29,7 @@ Los objetivos específicos son:
 
 
 
-> La topología fue implementada en GNS3. Cada FortiGate tiene:
+> La topología fue implementada en PNELAB. Cada FortiGate tiene:
 > - **port1** → Enlace WAN hacia el ISP
 > - **port2** → Red LAN local
 > - **port3** → (Reservado / enlace adicional)
